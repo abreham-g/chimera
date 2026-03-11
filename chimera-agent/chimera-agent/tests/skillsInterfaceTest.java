@@ -1,3 +1,5 @@
+// File purpose: Defines skillsInterfaceTest behavior for Project Chimera.
+
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Method;
@@ -50,3 +52,4 @@ class skillsInterfaceTest {
                 "SkillPublishOpenclawStatus.execute must declare BudgetExceededException.");
     }
 }
+

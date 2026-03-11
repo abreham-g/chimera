@@ -1,3 +1,5 @@
+// File purpose: Defines trendFetcherTest behavior for Project Chimera.
+
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.RecordComponent;
@@ -47,3 +49,4 @@ class trendFetcherTest {
         assertTrue(fields.contains("capturedAt"), "TrendItem must include capturedAt.");
     }
 }
+

@@ -1,5 +1,7 @@
 package com.tenx.chimera_agent.skills;
 
+// File purpose: Defines BudgetExceededException behavior for Project Chimera.
+
 public class BudgetExceededException extends Exception {
 	public BudgetExceededException(String message) {
 		super(message);
@@ -9,3 +11,4 @@ public class BudgetExceededException extends Exception {
 		super(message, cause);
 	}
 }
+

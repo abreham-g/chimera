@@ -1,5 +1,7 @@
 package com.tenx.chimera_agent.concurrency;
 
+// File purpose: Defines VirtualThreadTaskRunner behavior for Project Chimera.
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -36,4 +38,5 @@ public final class VirtualThreadTaskRunner {
 		}
 	}
 }
+
 

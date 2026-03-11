@@ -1,5 +1,7 @@
 package com.tenx.chimera_agent.concurrency;
 
+// File purpose: Defines VirtualThreadTaskRunnerTest behavior for Project Chimera.
+
 import org.junit.jupiter.api.Test;
 
 import java.time.Duration;
@@ -34,4 +36,5 @@ class VirtualThreadTaskRunnerTest {
 		assertEquals(List.of(1, 2, 3), results);
 	}
 }
+
 
