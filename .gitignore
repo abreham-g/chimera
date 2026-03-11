@@ -1,0 +1,4 @@
+.tmp/
+.pip-cache/
+challenge_extract.txt
+challenge_pdfbox.txt

@@ -1,0 +1,27 @@
+language: "en-US"
+early_access: false
+
+reviews:
+  auto_review:
+    enabled: true
+    drafts: false
+  high_level_summary: true
+  review_status: true
+  collapse_walkthrough: false
+
+  path_instructions:
+    - path: "chimera-agent/chimera-agent/src/**/*.java"
+      instructions: |
+        Check for strict alignment with specs/ before approving implementation.
+        Verify Java thread-safety concerns (shared mutable state, blocking IO handling, concurrency assumptions).
+        Flag potential security vulnerabilities (input validation gaps, secret handling risks, unsafe deserialization).
+    - path: "specs/**/*.md"
+      instructions: |
+        Ensure the specification is internally consistent (functional, technical, and integration docs agree).
+        Highlight ambiguous requirements that may cause implementation drift.
+    - path: ".github/workflows/*.yml"
+      instructions: |
+        Check CI workflow security and correctness (pinned actions where practical, least privilege, deterministic steps).
+
+chat:
+  auto_reply: false
