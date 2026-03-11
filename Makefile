@@ -3,7 +3,7 @@ PROJECT_DIR := chimera-agent/chimera-agent
 ifeq ($(OS),Windows_NT)
 MVN_CMD := cmd /c mvnw.cmd
 else
-MVN_CMD := ./mvnw
+MVN_CMD := sh ./mvnw
 endif
 
 .PHONY: setup test lint
